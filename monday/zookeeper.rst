@@ -4,6 +4,7 @@ Building an Impenetrable ZooKeeper
 :Authors: Katheleen Ting
 :Time: 2:00 pm - 2:50 pm
 :Session: https://thestrangeloop.com/sessions/building-an-impenetrable-zookeeper
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/Ting-BuildingAnImpenetrableZooKeeper.pdf?raw=true
 
 ZooKeeper is the unsung hero, and a lot of time people don't know that
 it's there until it's down. Because ZooKeeper is so important, it's
