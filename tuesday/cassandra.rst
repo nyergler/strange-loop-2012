@@ -5,7 +5,7 @@
 :Authors: Matthew Dennis
 :Time: 11:00 am - 11:20 am
 :Session: https://thestrangeloop.com/sessions/apache-cassandra-anti-patterns
-:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/strangeloop2012_mfd.pdf?raw=true
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/Dennis-ApacheCassandraAntiPatterns.pdf?raw=true
 
 Don't run C* on a SAN. Cassandra was designed for commodity hardware,
 so it didn't really plan for SAN/high performance hardware. It's not
