@@ -9,3 +9,4 @@ Tuesday
    light-table.rst
    cassandra.rst
    whisper.rst
+   data-structures.rst
