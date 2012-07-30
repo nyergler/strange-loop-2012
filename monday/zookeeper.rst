@@ -31,59 +31,59 @@ majority of ZKs agree.
 
 Common Misconfigurations:
 
-# Too Many Connections
+#. Too Many Connections
 
-  * ZK has a limited number of connections; defaults to 60 [per IP?]
-  * HBase clients have leaked connections in the past, so they have to
-    be closed manually
+   * ZK has a limited number of connections; defaults to 60 [per IP?]
+   * HBase clients have leaked connections in the past, so they have to
+     be closed manually
 
-# Connection Closes Prematurely
+#. Connection Closes Prematurely
 
-  Need to increase wait time for recovery. [Didn't understand this
-  completely.]
+   Need to increase wait time for recovery. [Didn't understand this
+   completely.]
 
-# Pig Hangs Connecting to HBase
+#. Pig Hangs Connecting to HBase
 
-  * Caused by Pig not knowing the location of the ZK quorum.
-  * This can be resolved with Pig10
+   * Caused by Pig not knowing the location of the ZK quorum.
+   * This can be resolved with Pig10
 
-# Client Session Time Out
+#. Client Session Time Out
 
-  * ZK defaults session timeout to 40s, while HBase needs a 180s
-    timeout for garbage collection.
-  * This will cause them to agree on the shorter session timeout
-  * HBase will begin to timeout under IO load, because it needs more
-    time
-  * This may also be caused by co-locating ZK with something IO
-    intensive like a DataNode or RegionServer
-  * ZK has relatively low IO requirements, but durability requires
-    that changes fsync before reporting as accepted.
+   * ZK defaults session timeout to 40s, while HBase needs a 180s
+     timeout for garbage collection.
+   * This will cause them to agree on the shorter session timeout
+   * HBase will begin to timeout under IO load, because it needs more
+     time
+   * This may also be caused by co-locating ZK with something IO
+     intensive like a DataNode or RegionServer
+   * ZK has relatively low IO requirements, but durability requires
+     that changes fsync before reporting as accepted.
 
-# Clients Lose Connections
+#. Clients Lose Connections
 
-  * The ZK transaction log is optimized for mechanical spindles and
-    sequential IO
-  * SSD provides little benefit to ZK, and suffers from latency spikes
+   * The ZK transaction log is optimized for mechanical spindles and
+     sequential IO
+   * SSD provides little benefit to ZK, and suffers from latency spikes
 
-# Unable to Load Database: Unable to Load Quorum Server
+#. Unable to Load Database: Unable to Load Quorum Server
 
-  * If there is disk corruption, ZK will refuse to load
-  * If you have two other running ZK instances, you can safely wipe
-    the database and it will replicate from the other two when it
-    comes back up
+   * If there is disk corruption, ZK will refuse to load
+   * If you have two other running ZK instances, you can safely wipe
+     the database and it will replicate from the other two when it
+     comes back up
 
-# Unable to Load Database - Unreasonable Length Exception
+#. Unable to Load Database - Unreasonable Length Exception
 
-  * ZK allows a client to set data larger than the server can read
-    from disk
-  * ZK includes the metadata when calculating the size
-  * Increase the max size to work around
-  * This is a bug in ZK which will be fixed in a future release
+   * ZK allows a client to set data larger than the server can read
+     from disk
+   * ZK includes the metadata when calculating the size
+   * Increase the max size to work around
+   * This is a bug in ZK which will be fixed in a future release
 
-# Failure to Follow Leader
+#. Failure to Follow Leader
 
-  * If your ZK nodes comes up and is not the leader and can not
-    contact the leader, it will not be able to restart
+   * If your ZK nodes comes up and is not the leader and can not
+     contact the leader, it will not be able to restart
 
 Because ZK operates by majority, recommend having an odd number of
 servers in an ensemble: if you have 2 servers in an ensemble, and one
