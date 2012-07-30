@@ -10,7 +10,7 @@ Ostap has been working on Bandicoot for about four years, mostly part
 time, but recently their time has been increasing. Bandicoot is open
 source, and hosted on github. Bandicoot began because Ostap was
 writing code in many languages including Java and SQL. He was
-frustrated because when he wrote something in SQL, you could write
+fascinated because when he wrote something in SQL, you could write
 something once and it would work with no records, one record,
 thousands, or millions of records. And there's been lots of research
 on relational systems: fast joins, etc. At the same time there's been
