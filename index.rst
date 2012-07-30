@@ -7,7 +7,8 @@ include emerging languages, concurrent and distributed systems, new
 database technologies, front-end web, and mobile apps.
 
 These are Nathan Yergler's notes from Strange Loop 2012 and the
-Emerging Languages Camp.
+Emerging Languages Camp. You can find the ReStructured Text source for
+these notes in the `git repository`_.
 
 .. toctree::
    :maxdepth: 2
@@ -18,3 +19,4 @@ Emerging Languages Camp.
 
 
 .. _`Strange Loop`: https://thestrangeloop.com/
+.. _`git repository`: https://github.com/nyergler/strange-loop-2012
