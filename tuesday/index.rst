@@ -11,3 +11,4 @@ Tuesday
    whisper.rst
    data-structures.rst
    expressing-abstraction.rst
+   blindfold.rst
