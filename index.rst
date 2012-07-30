@@ -7,3 +7,4 @@
 
    emerging-languages/index.rst
    monday/index.rst
+   tuesday/index.rst
