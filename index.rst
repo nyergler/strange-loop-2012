@@ -6,3 +6,4 @@
    :maxdepth: 2
 
    emerging-languages/index.rst
+   monday/index.rst
