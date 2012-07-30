@@ -8,3 +8,4 @@ Tuesday
    hawkins.rst
    light-table.rst
    cassandra.rst
+   whisper.rst
