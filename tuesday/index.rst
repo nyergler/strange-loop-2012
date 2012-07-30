@@ -10,3 +10,4 @@ Tuesday
    cassandra.rst
    whisper.rst
    data-structures.rst
+   expressing-abstraction.rst
