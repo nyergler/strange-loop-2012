@@ -4,6 +4,7 @@ The Reemergence of Datalog
 :Authors: Michael Fogus
 :Time: 12:40 pm - 1:20 pm
 :Session: https://thestrangeloop.com/sessions/the-reemergence-of-datalog
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/Fogus-Datalog.pdf?raw=true
 
 Also known as "Return of the Living Datalog". Michael likes turtles.
 

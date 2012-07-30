@@ -6,7 +6,7 @@ Elm: Making the Web Functional
 :Time: 10:30 am - 11:00 am
 :Session: https://thestrangeloop.com/sessions/elm-making-the-web-functional
 :Link: http://elm-lang.org/
-
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/Czaplicki-ElmMakingTheWebFunctional.pdf?raw=true
 
 The focus is making the web functional, but the real question is "why
 elm?". It's inspired by the Kubler-Ross model: Acceptance, Denial,

@@ -4,6 +4,7 @@ Clever, Classless, and Free?
 :Authors: - Håkan Råberg
 :Time: 11:30 am - 12:00 pm
 :Session: https://thestrangeloop.com/sessions/clever-classless-and-free
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/Raberg-CleverClasslessAndFree.pdf?raw=true
 
 Invited to speak, and decided he wanted to talk about some experience
 over the last few years. He comes from a consulting background, and

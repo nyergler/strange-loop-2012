@@ -5,6 +5,7 @@ Rust
 :Time: 2:40 pm - 3:20 pm
 :Session: https://thestrangeloop.com/sessions/rust
 :Link: http://www.rust-lang.org/
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/Herman-Rust.pdf?raw=true
 
 A Haiku to describe Rust:
 

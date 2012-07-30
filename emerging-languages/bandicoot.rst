@@ -5,6 +5,7 @@ Bandicoot: Code Reuse for the Relational Model
 :Time: 10:00 am - 10:30 am
 :Session: https://thestrangeloop.com/sessions/bandicoot-code-reuse-for-the-relational-model
 :Link: http://bandilab.org
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/CherkashinChrobak-Bandicoot.pdf?raw=true
 
 Ostap has been working on Bandicoot for about four years, mostly part
 time, but recently their time has been increasing. Bandicoot is open

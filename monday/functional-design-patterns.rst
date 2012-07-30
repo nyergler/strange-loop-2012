@@ -4,7 +4,7 @@ Functional Design Patterns
 :Authors: Stuart Sierra
 :Time: 11:00 am - 11:50 am
 :Session: https://thestrangeloop.com/sessions/functional-design-patterns
-:Link:
+:Slides: https://github.com/strangeloop/strangeloop2012/raw/master/slides/Sierra-FunctionalDesignPatterns.html
 
 Had the idea for the talk about six months ago at Clojure West. When
 he went to write it, he realized that "design pattern" is sort of a

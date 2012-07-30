@@ -5,7 +5,7 @@ Taking Off the Blindfold
 :Authors: Bret Victor
 :Time: 4:30 pm - 5:20 pm
 :Session: https://thestrangeloop.com/sessions/taking-off-the-blindfold
-:Link:
+:Slides: http://worrydream.com/LearnableProgramming/
 
 *Visible Programming: Designing a programming environment around how
 human beings do human being things*
