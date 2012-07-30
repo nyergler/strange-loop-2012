@@ -11,3 +11,4 @@
    haskell.rst
    high-order-ruby.rst
    zookeeper.rst
+   reliable-systems.rst
