@@ -10,3 +10,4 @@
    functional-design-patterns.rst
    haskell.rst
    high-order-ruby.rst
+   zookeeper.rst
