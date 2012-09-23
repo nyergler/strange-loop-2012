@@ -3,7 +3,7 @@
 =========================
 
 :Date: 2012-09-23
-:Location: Marriott Union Station St Louis
+:Location: Marriott Union Station, St Louis, Missouri
 
 Wanted to provide a venue for talking about new languages that wasn't
 for people who had completed a PhD or were working on one.
@@ -20,17 +20,4 @@ for people who had completed a PhD or were working on one.
    roy.rst
    julia.rst
    rust.rst
-
-:50 pm - 4:30 pm -
-Grace: an open source educational OO language
- - James Noble
-
-
-4:30 pm - 5:10 pm -
-Elixir: Modern Programming for the Erlang VM
- - Jose Valim
-
-
-5:10 pm - 5:50 pm -
-Visi: Cultured and Distributed
- - David Pollak
+   grace.rst
