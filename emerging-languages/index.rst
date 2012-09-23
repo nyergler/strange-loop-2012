@@ -19,18 +19,9 @@ for people who had completed a PhD or were working on one.
    datalog.rst
    roy.rst
    julia.rst
+   rust.rst
 
-
-Rust
-====
-
-:Authors: David Herman
-:Time: 2:40 pm - 3:20 pm
-
-3:20 pm - 3:50 pm - Afternoon break
-
-
-3:50 pm - 4:30 pm -
+:50 pm - 4:30 pm -
 Grace: an open source educational OO language
  - James Noble
 
