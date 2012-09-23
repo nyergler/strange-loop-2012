@@ -21,3 +21,4 @@ for people who had completed a PhD or were working on one.
    julia.rst
    rust.rst
    grace.rst
+   elixir.rst
