@@ -5,16 +5,14 @@
 :Authors: Matthew Dennis
 :Time: 11:00 am - 11:20 am
 :Session: https://thestrangeloop.com/sessions/apache-cassandra-anti-patterns
-:Link:
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/strangeloop2012_mfd.pdf?raw=true
 
-C* on a SAN
-
-Cassandra was designed for commodity hardware, so it didn't really
-plan for SAN/high performance hardware. It's not only unnecessary, it
-actually performs worse on SANs than it does on commodity hardware. C*
-uses (un)coordinated IO, so each node assumes it has local disk and
-attempts to maximize the bandwidth it uses. If you try to use a SAN,
-you wind up hammering your SAN.
+Don't run C* on a SAN. Cassandra was designed for commodity hardware,
+so it didn't really plan for SAN/high performance hardware. It's not
+only unnecessary, it actually performs worse on SANs than it does on
+commodity hardware. C* uses (un)coordinated IO, so each node assumes
+it has local disk and attempts to maximize the bandwidth it uses. If
+you try to use a SAN, you wind up hammering your SAN.
 
 Cassandra uses a commit log used for recovery; putting it on the same
 volume as the data directory causes problems because they have
