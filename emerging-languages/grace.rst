@@ -5,6 +5,7 @@ Grace: an open source educational OO language
 :Time: 3:50 pm - 4:30 pm
 :Session: https://thestrangeloop.com/sessions/grace-an-open-source-educational-oo-language
 :Link: http://gracelang.org/
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/bab046557f9b9f8c90c8152baa09a21fedd0405d/slides/elc/Homer-GraceAnOpenSourceEducationalOOLanguage.pdf?raw=true
 
 Grace is an open source educational OO language.
 
