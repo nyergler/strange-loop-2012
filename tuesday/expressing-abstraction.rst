@@ -5,7 +5,7 @@ Expressing Abstraction - Abstracting Expression
 :Authors: Ola Bini
 :Time: 3:30 pm - 4:20 pm
 :Session: https://thestrangeloop.com/sessions/expressing-abstraction-abstracting-expression
-:Link:
+:Slides: https://github.com/strangeloop/strangeloop2012/blob/master/slides/sessions/Bini-ExpressingAbstractionAbstractingExpression.pdf?raw=true
 
 Part of the group of people who took JRuby from a "toy" to "real
 application" level. Since then he's done things from writing a YAML
