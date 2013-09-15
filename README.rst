@@ -6,5 +6,5 @@ You can read the most recent version online at
 http://strange-loop-2012-notes.readthedocs.org/.
 
 
-.. _`Strange Loop 2012`: https://thestrangeloop.com/
+.. _`Strange Loop 2012`: https://thestrangeloop.com/archive/2012
 .. _`Sphinx`: http://sphinx.pocoo.org/
